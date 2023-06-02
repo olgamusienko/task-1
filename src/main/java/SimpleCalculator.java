@@ -18,12 +18,12 @@ public class SimpleCalculator {
 
     public double getSubtractionResult() {
 
-        return (firstNumber - secondNumber);
+        return firstNumber - secondNumber;
     }
 
     public double getMultiplicationResult() {
 
-        return (firstNumber * secondNumber);
+        return firstNumber * secondNumber;
     }
 
     public double getDivisionResult() {
@@ -32,6 +32,6 @@ public class SimpleCalculator {
             return 0;
         }
 
-        return (firstNumber / secondNumber);
+        return firstNumber / secondNumber;
     }
 }
